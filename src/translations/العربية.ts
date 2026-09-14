@@ -3,13 +3,11 @@
  * Arabic
  * ============================================================
  *
- * Translators:
- *
- * Ren <admin@fatafeet.net>
+ * Arabic UI strings. The upstream MIT notice remains in LICENSE.
  */
 
 export default {
-	'AdvanceHelp': 'للتقدم في القصة انقز بزر الفأره الأيسر او المس الشاشه في اي مكان او اضغط زر المسافة',
+	'AdvanceHelp': 'للتقدم في القصة انقر بزر الفأرة الأيسر أو المس الشاشة أو اضغط زر المسافة',
 	'AllowPlayback': 'أضغط هنا لتفعيل امكانية تشغيل الصوت',
 	'Audio': 'الأصوات',
 	'AutoPlay': 'تلقائي',
@@ -22,7 +20,7 @@ export default {
 	'Cancel': 'الغاء',
 	'Close': 'اغلاق',
 	'Confirm': 'هل ترغب بالخروج؟',
-	'Credits': 'العاملين على المشروع',
+	'Credits': 'حول اللعبة',
 
 	'Delete': 'حذف',
 	'DialogLogButton': 'اظهار زر الحوار',
@@ -31,7 +29,7 @@ export default {
 
 	'Gallery': 'معرض الصور',
 
-	'Help': 'مساعده',
+	'Help': 'مساعدة',
 	'Hide': 'اخفاء',
 	'HideButton': 'اخفاء صندوق الحوار',
 
@@ -70,8 +68,8 @@ export default {
 	'Save': 'حفظ',
 	'SaveButton': 'يفتح شاشة حفظ اللعبة',
 	'SaveInSlot': 'حفظ في خانة',
-	'SelectYourLanguage': 'Select your language',
-	'Settings': 'إعدادات',
+	'SelectYourLanguage': 'اختر لغتك',
+	'Settings': 'الإعدادات',
 	'SettingsButton': 'يفتح صفحة الإعدادات',
 	'Show': 'عرض',
 	'Skip': 'تخطي',

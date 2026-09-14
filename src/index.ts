@@ -35,8 +35,12 @@ export * as RandomJS from 'random-js';
 export * as Luxon from 'luxon';
 
 import Monogatari from './monogatari';
+import { installBranding } from './brand';
 import type { StaticComponent } from './lib/types/Component';
 import type { StaticAction } from './lib/types/Action';
+
+// Install the Arabic-first shell without changing the public engine API.
+installBranding();
 
 /**
  * =============================================================================

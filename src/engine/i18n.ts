@@ -2,6 +2,7 @@ import type { VisualNovelEngine } from '../lib/types/Monogatari';
 import { $_ } from '@aegis-framework/artemis';
 import { FancyError } from '../lib/FancyError';
 import { Settings } from 'luxon';
+import { applyBranding } from '../brand';
 
 /**
  * Gets the translation of a string. This is of course limited
@@ -44,6 +45,7 @@ export function localize (engine: VisualNovelEngine): void {
 
   // Setup the correct locale for the dates
   const language = engine.preference ('Language') as string;
+  applyBranding (language);
 
   const langMetadata = engine._languageMetadata[language];
 
