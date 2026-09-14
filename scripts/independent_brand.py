@@ -15,8 +15,8 @@ data.pop('homepage', None)
 data['main'] = './lib/hal-anta-huna.module.js'
 data['module'] = './lib/hal-anta-huna.module.js'
 data['css'] = 'dist/engine/core/hal-anta-huna.css'
-data['exports']['.']['import'] = './lib/engine/core/hal-anta-huna.module.js'
-data['exports']['.']['default'] = './lib/engine/core/hal-anta-huna.module.js'
+data['exports']['.']['import'] = './lib/hal-anta-huna.module.js'
+data['exports']['.']['default'] = './lib/hal-anta-huna.module.js'
 data['exports']['./browser']['import'] = './dist/engine/core/hal-anta-huna.js'
 data['exports']['./browser']['default'] = './dist/engine/core/hal-anta-huna.js'
 p.write_text(json.dumps(data, ensure_ascii=False, indent='\t') + '\n')

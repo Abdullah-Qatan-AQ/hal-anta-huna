@@ -8,8 +8,8 @@
 	"exports": {
 		".": {
 			"types": "./lib/index.d.ts",
-			"import": "./lib/engine/core/hal-anta-huna.module.js",
-			"default": "./lib/engine/core/hal-anta-huna.module.js"
+			"import": "./lib/hal-anta-huna.module.js",
+			"default": "./lib/hal-anta-huna.module.js"
 		},
 		"./browser": {
 			"types": "./dist/types/index.d.ts",
