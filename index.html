@@ -1,1 +1,35 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050609"><title>نُور — لا تفتح الكاميرا</title><link rel="stylesheet" href="./style/main.css"></head><body><main class="world"><div class="noise"></div><section id="intro" class="intro"><div class="intro-mark">N/03</div><p class="eyebrow">ملف اتصال غير معروف</p><h1>نُور</h1><p class="intro-copy">لا تفتح الكاميرا.<br>هي تعرف أنك تنظر.</p><button id="enter" class="enter">تشغيل الهاتف <span>↗</span></button><small>سماعات الرأس موصى بها · 03:17 ص</small></section><section id="phone" class="phone hidden"><div class="phone-shell"><div class="status"><span id="time">03:17</span><span>⌁  ▮▮▮  ◉</span></div><div id="screen" class="screen"><div id="lock" class="lock"><div class="lock-time">03:17</div><div class="lock-date">الثلاثاء، 17 أكتوبر</div><div class="lock-alert">رسالة جديدة من <b>نُور</b></div><div class="swipe">اسحب للفتح</div></div><div id="chat" class="chat hidden"><header class="chat-head"><button id="back" class="back">‹</button><div class="avatar"><img src="./assets/mariam-like-character.png"><i></i></div><div class="contact"><b>نُور</b><span id="presence">متصلة الآن</span></div><button id="call" class="call">⌕</button></header><div id="messages" class="messages"></div><div class="typing hidden">نُور تكتب<span>•••</span></div><div class="composer"><button id="camera" class="compose-icon">◉</button><input id="reply" placeholder="اكتب ردك..." autocomplete="off"><button id="send" class="send">↑</button></div></div><div id="cameraView" class="camera-view hidden"><div class="camera-top"><button id="closeCamera">×</button><span>الكاميرا الخلفية</span><b>● REC</b></div><div class="camera-frame"><div class="crosshair"></div><div id="cameraGhost" class="ghost"></div></div><div class="camera-bottom"><button id="flash">ϟ</button><button id="shutter">●</button><button id="gallery">▧</button></div></div><div id="callView" class="call-view hidden"><div class="call-avatar"><img src="./assets/mariam-like-character.png"></div><p>نُور</p><span id="callStatus">تتصل...</span><div class="call-waves"><i></i><i></i><i></i><i></i><i></i></div><button id="answer" class="answer">رد</button><button id="hang" class="hang hidden">إنهاء</button></div><div id="photoView" class="photo-view hidden"><button id="closePhoto">×</button><img src="./assets/phone-photo.jpg"><div class="photo-caption">تم الحفظ من الكاميرا · 03:18</div></div><div id="endingView" class="ending-view hidden"><p class="eyebrow">آخر اتصال</p><h2 id="endingTitle"></h2><p id="endingCopy"></p><button id="again">إعادة الليلة</button></div></div><div class="home-bar"></div></div><div class="phone-shadow"></div></section></main><audio id="ambience" loop src="./assets/phone-horror-ambient.wav"></audio><audio id="noorVoice" src="./assets/noor-message.wav"></audio><script src="./js/main.js"></script></body></html>
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07080c" />
+  <title>أطياف الممر — رواية تفاعلية</title>
+  <link rel="stylesheet" href="./style/main.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#start" aria-label="العودة للبداية"><span class="brand-mark">◌</span><span>أطياف الممر</span></a>
+      <div class="top-actions"><button id="readBtn" class="ghost-btn" title="قراءة النص بصوت">◖ قراءة النص</button><button id="cameraBtn" class="ghost-btn" title="فتح الكاميرا">◉ الكاميرا</button></div>
+    </header>
+
+    <section id="start" class="hero view">
+      <div class="hero-copy"><p class="kicker">رواية رعب تفاعلية · ملف 07</p><h1>لا تنظر<br><em>إلى آخر الممر.</em></h1><p class="lead">في الساعة 03:17، يصل إلى هاتفك تسجيل لا تتذكر أنك صورته. كل قرار يترك أثرًا. وكل أثر يفتح بابًا.</p><div class="hero-actions"><button id="startBtn" class="primary-btn">ابدأ الفصل الأول <span>←</span></button><button id="continueBtn" class="text-btn">متابعة المحفوظ</button></div></div>
+      <div class="hero-art"><div class="moon"></div><div class="corridor"></div><div class="figure">◌</div><div class="art-caption">المشهد الأول / المبنى القديم</div></div>
+    </section>
+
+    <section id="story" class="story view hidden">
+      <aside class="sidebar"><div class="chapter-label">الفصل <b id="chapterNo">01</b><span id="chapterName">الوصول</span></div><div class="progress"><span id="progressBar"></span></div><nav id="chapterNav" class="chapter-nav"></nav><div class="side-note">«بعض الأبواب لا تُفتح بالمفاتيح، بل بما تجرؤ على معرفته.»</div></aside>
+      <article class="story-card"><div class="story-meta"><span id="sceneTag">03:17 · الطابق الثالث</span><span id="tensionTag" class="tension">التوتر 0%</span></div><div id="sceneImage" class="scene-image"><span id="sceneSymbol">◌</span></div><div class="story-body"><p id="storyText" class="story-text"></p><div id="evidenceRow" class="evidence-row"></div><div id="choices" class="choices"></div><div class="story-tools"><button id="speakScene" class="small-btn">◖ استمع للمشهد</button><button id="openNotebook" class="small-btn">▣ دفتر الأدلة <b id="evidenceCount">0</b></button></div></div></article>
+    </section>
+
+    <section id="ending" class="ending view hidden"><p class="kicker">نهاية المسار <span id="endingCode"></span></p><h2 id="endingTitle"></h2><p id="endingText"></p><div id="endingStats" class="ending-stats"></div><button id="restartBtn" class="primary-btn">ابدأ مسارًا جديدًا ↻</button></section>
+
+    <div id="notebook" class="modal hidden"><div class="modal-card"><button class="close" data-close="notebook">×</button><p class="kicker">دفتر الأدلة</p><h2>ما عرفته حتى الآن</h2><div id="notebookList"></div></div></div>
+    <div id="cameraModal" class="modal hidden"><div class="camera-card"><button class="close" data-close="cameraModal">×</button><div class="camera-head"><span>عدسة الممر</span><b>● LIVE</b></div><div class="camera-stage"><video id="cameraVideo" autoplay playsinline muted></video><div class="ghost-overlay"></div><div class="camera-reticle"></div><p id="cameraHint">اسمح للكاميرا… ربما لا تكون وحدك.</p></div><div class="camera-controls"><button id="captureBtn" class="shutter" aria-label="التقاط صورة">●</button><button id="stopCamera" class="small-btn">إيقاف الكاميرا</button></div><canvas id="captureCanvas" class="hidden"></canvas></div></div>
+    <div id="toast" class="toast"></div>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>
