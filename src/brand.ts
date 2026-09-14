@@ -11,7 +11,7 @@ export function applyBranding (language?: string): void {
 	root.setAttribute('lang', isArabic ? 'ar' : (language || 'en'));
 	root.setAttribute('dir', isArabic ? 'rtl' : 'ltr');
 	root.dataset.brand = 'hal-anta-huna';
-	if (!document.title || document.title === 'Monogatari') document.title = BRAND_NAME;
+	if (!document.title) document.title = BRAND_NAME;
 }
 
 export function installBranding (): void {

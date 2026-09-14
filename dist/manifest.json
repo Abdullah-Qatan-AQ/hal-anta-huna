@@ -1,8 +1,8 @@
 {
-	"short_name": "Monogatari",
-	"name": "Monogatari Visual Novel",
-	"background_color": "#F7F7F7",
-	"theme_color": "#F7F7F7",
+	"short_name": "هل أنت هنا؟",
+	"name": "هل أنت هنا؟ — رواية تفاعلية",
+	"background_color": "#0d1018",
+	"theme_color": "#b8894c",
 	"orientation": "landscape",
 	"display": "fullscreen",
 	"start_url": "index.html",

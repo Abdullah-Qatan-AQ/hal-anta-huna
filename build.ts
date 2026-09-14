@@ -23,7 +23,7 @@ async function buildModule(): Promise<void> {
 	const result = await Bun.build({
 		entrypoints: [join(SRC_DIR, 'index.js')],
 		outdir: OUT_DIR_MODULE,
-		naming: 'monogatari.module.js',
+		naming: 'hal-anta-huna.module.js',
 		...commonBuildOptions,
 	});
 
@@ -47,7 +47,7 @@ async function buildBrowser(): Promise<void> {
 	const result = await Bun.build({
 		entrypoints: [join(SRC_DIR, 'browser.ts')],
 		outdir: OUT_DIR_BROWSER,
-		naming: 'monogatari.js',
+		naming: 'hal-anta-huna.js',
 		target: 'browser',
 		format: 'iife',
 		sourcemap: 'linked',
@@ -101,7 +101,7 @@ async function buildCSS(): Promise<void> {
 	const result = await Bun.build({
 		entrypoints: [join(SRC_DIR, 'index.css')],
 		outdir: OUT_DIR_BROWSER,
-		naming: 'monogatari.css',
+		naming: 'hal-anta-huna.css',
 		minify: true,
 		sourcemap: 'linked',
 	});
