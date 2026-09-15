@@ -42,3 +42,5 @@ release
 cypress/videos/
 cypress/screenshots/
 docs/assets/
+# Local Android release artifacts
+releases/
