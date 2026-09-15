@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">أطياف الممر</string>
+    <string name="title_activity_main">أطياف الممر</string>
+    <string name="package_name">com.abdullahqatan.atyaaf</string>
+    <string name="custom_url_scheme">com.abdullahqatan.atyaaf</string>
+</resources>
