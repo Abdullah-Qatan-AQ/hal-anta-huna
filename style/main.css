@@ -33,3 +33,6 @@ body{overflow-x:hidden;background:radial-gradient(circle at 50% -20%,#441b1e 0,#
  .story-foot{justify-content:flex-start}
  .story-foot button{padding:.35rem 0}
 }
+
+/* Interactive film controls */
+.countdown-stat b{color:#e1b17b}.countdown-stat b.urgent{color:#ff5e67;animation:pulse .65s infinite}.puzzle input{background:#2b1215;border:1px solid #8a4146;color:#fff;padding:.65rem;font:700 1rem 'IBM Plex Mono';width:130px;direction:ltr;text-align:center}.tiles button.found{background:#6d2a2f;border-color:#e1a26f;color:#fff}.audio-bar{min-height:42px}.audio-bar input{min-width:100px}.story-foot button{cursor:pointer}.story-foot button:focus-visible,.choice:focus-visible,.controls button:focus-visible{outline:2px solid #f1c5a5;outline-offset:3px}@keyframes pulse{50%{opacity:.45}}@media(max-width:760px){.countdown-stat{display:block}.audio-bar{flex-wrap:wrap}.audio-bar span{flex:1;min-width:170px}.audio-bar input{order:3;flex-basis:100%}}
